@@ -72,4 +72,6 @@ def rec_cfg(rec, baseline):
         return 'itemsplitting -traditional ' + baseline
     if rec == 'uisplitting':
         return 'uisplitting -traditional ' + baseline
+    if rec == 'bpr':
+        return 'bpr'
     print('Erro')

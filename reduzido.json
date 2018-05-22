@@ -1,0 +1,21 @@
+{
+  "attributesToCluster": "LATITUDE,LONGITUDE",
+  "clustering": [
+    {
+      "name": "KMeans",
+      "config": {
+        "max_iterations": 100,
+        "init": "k-means++",
+        "num_clusters": 3
+      }
+    },
+    {
+      "name": "KMeans",
+      "config": {
+        "max_iterations": 100,
+        "init": "k-means++",
+        "num_clusters": 5
+      }
+    }
+  ]
+}

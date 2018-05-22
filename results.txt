@@ -1,3 +1,28 @@
-WorkingPath: /home/igorsantana/pesquisa/datasets/CARSKit.Workspace/
-Your original rating data path: /home/igorsantana/pesquisa/datasets/reduzido.csv
-Current working path: /home/igorsantana/pesquisa/datasets/CARSKit.Workspace/
+WorkingPath: /Users/igorsantana/Projects/v2-tcc-pesquisa/datasets/CARSKit.Workspace/
+Your original rating data path: /Users/igorsantana/Projects/v2-tcc-pesquisa/datasets/reduzido.csv
+Current working path: /Users/igorsantana/Projects/v2-tcc-pesquisa/datasets/CARSKit.Workspace/
+Data transformaton completed (from Compact to Binary format). See new rating file: /Users/igorsantana/Projects/v2-tcc-pesquisa/datasets/CARSKit.Workspace/ratings_binary.txt
+Dataset: ...ARSKit.Workspace/ratings_binary.txt
+DataPath: /Users/igorsantana/Projects/v2-tcc-pesquisa/datasets/CARSKit.Workspace/ratings_binary.txt
+Rating data set has been successfully loaded.
+
+/***************************************************************************************************
+ *
+ * Dataset: /Users/igorsantana/Projects/v2-tcc-pesquisa/datasets/CARSKit.Workspace/ratings_binary.txt
+ * 
+ * Statistics of U-I-C Matrix:
+ * User amount: 548
+ * Item amount: 549
+ * Rate amount: 607
+ * Context dimensions: 2 (latitude, longitude)
+ * Context conditions: 1096 (latitude: 548, longitude: 548)
+ * Context situations: 547
+ * Data density: 0.00000067185363493266%
+ * Scale distribution: [2.0 x 61, 4.0 x 194, 1.0 x 33, 5.0 x 180, 3.0 x 139]
+ * Average value of all ratings: 3.703460
+ * Standard deviation of all ratings: 1.152765
+ * Mode of all rating values: 4.000000
+ * Median of all rating values: 4.000000
+ *
+ ***************************************************************************************************/
+With Setup: cv -k 10 -p on --rand-seed 1 --test-view all
