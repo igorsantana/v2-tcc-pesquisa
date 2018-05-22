@@ -1,0 +1,67 @@
+{
+    "attributesToCluster": "LATITUDE,LONGITUDE",
+    "clustering": [
+      {
+        "name": "KMeans",
+        "config": {
+          "max_iterations": 100,
+          "init": "k-means++",
+          "num_clusters": 2
+        }
+      },
+      {
+        "name": "KMeans",
+        "config": {
+          "max_iterations": 100,
+          "init": "k-means++",
+          "num_clusters": 8
+        }
+      },
+      {
+        "name": "KMeans",
+        "config": {
+          "max_iterations": 100,
+          "init": "k-means++",
+          "num_clusters": 16
+        }
+      },
+      {
+        "name": "DBSCAN",
+        "config": {
+          "eps": 0.001,
+          "min_pts": 5,
+          "distance": "haversine"
+        }
+      },
+      {
+        "name": "DBSCAN",
+        "config": {
+          "eps": 0.001,
+          "min_pts": 1,
+          "distance": "haversine"
+        }
+      },
+      {
+        "name": "HierarchicalClusterer",
+        "config": {
+          "num_clusters": 2,
+          "distance": "euclidean"
+        }
+      },
+      {
+        "name": "HierarchicalClusterer",
+        "config": {
+          "num_clusters": 8,
+          "distance": "euclidean"
+        }
+      },
+      {
+        "name": "HierarchicalClusterer",
+        "config": {
+          "num_clusters": 16,
+          "distance": "euclidean"
+        }
+      }
+    ]
+  }
+  

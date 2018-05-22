@@ -1,0 +1,3 @@
+WorkingPath: /home/igorsantana/pesquisa/datasets/CARSKit.Workspace/
+Your original rating data path: /home/igorsantana/pesquisa/datasets/reduzido.csv
+Current working path: /home/igorsantana/pesquisa/datasets/CARSKit.Workspace/

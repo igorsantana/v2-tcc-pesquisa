@@ -1,0 +1,4 @@
+[INFO ] 2018-05-22 09:54:33,159 -- WorkingPath: /home/igorsantana/pesquisa/datasets/CARSKit.Workspace/
+[INFO ] 2018-05-22 09:54:33,167 -- Your original rating data path: /home/igorsantana/pesquisa/datasets/reduzido.csv
+[INFO ] 2018-05-22 09:54:33,167 -- Current working path: /home/igorsantana/pesquisa/datasets/CARSKit.Workspace/
+[WARN ] 2018-05-22 09:54:33,168 -- You rating data is in Compact format. CARSKit is working on transformation on the data format...
